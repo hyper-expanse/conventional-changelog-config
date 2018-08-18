@@ -34,6 +34,7 @@
     "conventional-changelog-angular": "^5.0.0"
   },
   "devDependencies": {
+    "@hbetts/conventional-changelog-config": "^1.0.0",
     "@hbetts/eslint-config": "^1.0.1",
     "@hbetts/nyc-config": "^1.0.2",
     "chai": "^4.0.2",
