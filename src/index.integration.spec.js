@@ -4,15 +4,12 @@
 
 const chai = require(`chai`);
 const chaiAsPromised = require(`chai-as-promised`);
-const mocha = require(`mocha`);
+const {describe, it} = require(`mocha`);
 
 const conventionalChangelogConfig = require(`../`);
 
 chai.use(chaiAsPromised);
-const expect = chai.expect;
-
-const describe = mocha.describe;
-const it = mocha.it;
+const {expect} = chai;
 
 describe(`@hbetts/conventional-changelog-config`, () => {
   it(`is an object`, () => {
