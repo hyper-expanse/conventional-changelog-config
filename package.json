@@ -20,7 +20,7 @@
   ],
   "license": "Apache-2.0",
   "main": "src/index.js",
-  "name": "@hbetts/conventional-changelog-config",
+  "name": "@hutson/conventional-changelog-config",
   "repository": {
     "type": "git",
     "url": "https://gitlab.com/hyper-expanse/open-source/configuration-packages/conventional-changelog-config.git"

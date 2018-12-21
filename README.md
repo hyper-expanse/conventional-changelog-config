@@ -1,6 +1,6 @@
-# @hbetts/conventional-changelog-config
+# @hutson/conventional-changelog-config
 
-> Standard conventional-changelog configuration as used by projects maintained by Hutson Betts (@hbetts).
+> Standard conventional-changelog configuration as used by projects maintained by Hutson Betts (@hutson).
 
 Configuration package for tools within the [`conventional-changelog`](https://www.npmjs.com/package/conventional-changelog) ecosystem, or those that leverage the ecosystem, such as `semantic-release-gitlab`, that support [loading `conventional-changelog` presets](https://www.npmjs.com/package/semantic-release-gitlab#preset).
 
@@ -28,10 +28,10 @@ Configuration package for tools within the [`conventional-changelog`](https://ww
 
 ## Installation
 
-To install the `@hbetts/conventional-changelog-config` configuration package for use in your project please run the following command:
+To install the `@hutson/conventional-changelog-config` configuration package for use in your project please run the following command:
 
 ```bash
-yarn add --dev @hbetts/conventional-changelog-config
+yarn add --dev @hutson/conventional-changelog-config
 ```
 
 ## Usage
@@ -41,23 +41,23 @@ Each tool capable of using a `conventional-changelog` configuration package has 
 However, as an example, if you are using `semantic-release-gitlab` or `semantic-release-github`, you can pass this configuration package to those tools like so:
 
 ```bash
-$(yarn bin)/semantic-release-gitlab --preset @hbetts/config
+$(yarn bin)/semantic-release-gitlab --preset @hutson/config
 ```
 
 ## Debugging
 
-To assist users of `@hbetts/conventional-changelog-config` with debugging the behavior of this module we use the [debug](https://www.npmjs.com/package/debug) utility package to print information to the console. To enable debug message printing, the environment variable `DEBUG`, which is the variable used by the `debug` package, must be set to a value configured by the package containing the debug messages to be printed.
+To assist users of `@hutson/conventional-changelog-config` with debugging the behavior of this module we use the [debug](https://www.npmjs.com/package/debug) utility package to print information to the console. To enable debug message printing, the environment variable `DEBUG`, which is the variable used by the `debug` package, must be set to a value configured by the package containing the debug messages to be printed.
 
 To print debug messages on a unix system set the environment variable `DEBUG` with the name of this package prior to executing a tool that invokes this module:
 
 ```bash
-DEBUG=@hbetts/conventional-changelog-config [CONSUMING TOOL]
+DEBUG=@hutson/conventional-changelog-config [CONSUMING TOOL]
 ```
 
 On the Windows command line you may do:
 
 ```bash
-set DEBUG=@hbetts/conventional-changelog-config
+set DEBUG=@hutson/conventional-changelog-config
 [CONSUMING TOOL]
 ```
 
