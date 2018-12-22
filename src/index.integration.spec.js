@@ -11,7 +11,7 @@ const conventionalChangelogConfig = require(`../`);
 chai.use(chaiAsPromised);
 const {expect} = chai;
 
-describe(`@hbetts/conventional-changelog-config`, () => {
+describe(`@hutson/conventional-changelog-config`, () => {
   it(`is an object`, () => {
     expect(conventionalChangelogConfig).to.be.a(`promise`);
   });

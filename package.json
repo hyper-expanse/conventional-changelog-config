@@ -6,7 +6,7 @@
   },
   "bin": {},
   "bugs": "https://gitlab.com/hyper-expanse/open-source/configuration-packages/conventional-changelog-config/issues",
-  "description": "Standard conventional-changelog configuration as used by projects maintained by Hutson Betts (@hbetts).",
+  "description": "Standard conventional-changelog configuration as used by projects maintained by Hutson Betts (@hutson).",
   "engines": {
     "node": ">=6.9.0"
   },
