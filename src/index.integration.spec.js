@@ -4,12 +4,12 @@
 
 const chai = require(`chai`);
 const chaiAsPromised = require(`chai-as-promised`);
-const {describe, it} = require(`mocha`);
+const { describe, it } = require(`mocha`);
 
 const conventionalChangelogConfig = require(`../`);
 
 chai.use(chaiAsPromised);
-const {expect} = chai;
+const { expect } = chai;
 
 describe(`@hutson/conventional-changelog-config`, () => {
   it(`is an object`, () => {
@@ -28,45 +28,45 @@ describe(`@hutson/conventional-changelog-config`, () => {
   it(`should return expected results`, () => {
     const commits = [{
       notes: [],
-      type: `chore`,
+      type: `chore`
     }, {
       notes: [],
-      type: `fix`,
+      type: `fix`
     }, {
       notes: [],
-      type: `feat`,
+      type: `feat`
     }, {
       notes: [{
         title: `BREAKING CHANGE`,
-        text: `Something in the API has changed.`,
+        text: `Something in the API has changed.`
       }],
-      type: `fix`,
+      type: `fix`
     }, {
       notes: [{
         title: `BREAKING CHANGE`,
-        text: `Something in the API has changed.`,
+        text: `Something in the API has changed.`
       }, {
         title: `BREAKING CHANGE`,
-        text: `Something else in the API has changed.`,
+        text: `Something else in the API has changed.`
       }],
-      type: `feat`,
+      type: `feat`
     }];
 
     const results = [{
       level: null,
-      reason: `There are 0 BREAKING CHANGES and 0 features`,
+      reason: `There are 0 BREAKING CHANGES and 0 features`
     }, {
       level: 2,
-      reason: `There are 0 BREAKING CHANGES and 0 features`,
+      reason: `There are 0 BREAKING CHANGES and 0 features`
     }, {
       level: 1,
-      reason: `There are 0 BREAKING CHANGES and 1 feature`,
+      reason: `There are 0 BREAKING CHANGES and 1 feature`
     }, {
       level: 0,
-      reason: `There is 1 BREAKING CHANGE and 0 features`,
+      reason: `There is 1 BREAKING CHANGE and 0 features`
     }, {
       level: 0,
-      reason: `There are 2 BREAKING CHANGES and 1 feature`,
+      reason: `There are 2 BREAKING CHANGES and 1 feature`
     }];
 
     return expect(conventionalChangelogConfig).to.be.fulfilled

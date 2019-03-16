@@ -28,7 +28,7 @@ module.exports = {
 
     return {
       level,
-      reason: `There ${breakings === 1 ? `is` : `are`} ${breakings} BREAKING CHANGE${breakings === 1 ? `` : `S`} and ${features} feature${features === 1 ? `` : `s`}`,
+      reason: `There ${breakings === 1 ? `is` : `are`} ${breakings} BREAKING CHANGE${breakings === 1 ? `` : `S`} and ${features} feature${features === 1 ? `` : `s`}`
     };
-  },
+  }
 };

@@ -8,5 +8,5 @@ const writerOpts = require(`conventional-changelog-angular/writer-opts`);
 module.exports = Promise
   .all([conventionalChangelog, parserOpts, recommendedBumpOpts, writerOpts])
   .then(values => {
-    return {conventionalChangelog: values[0], parserOpts: values[1], recommendedBumpOpts: values[2], writerOpts: values[3]};
+    return { conventionalChangelog: values[0], parserOpts: values[1], recommendedBumpOpts: values[2], writerOpts: values[3] };
   });
