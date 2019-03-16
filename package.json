@@ -26,7 +26,7 @@
     "url": "https://gitlab.com/hyper-expanse/open-source/configuration-packages/conventional-changelog-config.git"
   },
   "scripts": {
-    "test": "yarn semistandard 'src/**' && nyc mocha --opts mocha.opts src/**/*.spec.js"
+    "test": "yarn semistandard 'src/**/*.js' && nyc mocha --opts mocha.opts src/**/*.spec.js"
   },
   "version": "1.0.0",
   "dependencies": {
