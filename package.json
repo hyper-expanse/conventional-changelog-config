@@ -30,8 +30,7 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "conventional-changelog-angular": "^5.0.0",
-    "semistandard": "^13.0.1"
+    "conventional-changelog-angular": "^5.0.0"
   },
   "devDependencies": {
     "@hutson/conventional-changelog-config": "^2.0.0",
@@ -42,6 +41,7 @@
     "mocha": "^5.0.0",
     "npm-publish-git-tag": "^3.0.0",
     "nyc": "^13.0.0",
-    "semantic-release-gitlab": "^7.0.0"
+    "semantic-release-gitlab": "^7.0.0",
+    "semistandard": "^13.0.1"
   }
 }
