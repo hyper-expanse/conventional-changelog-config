@@ -20,6 +20,13 @@
   ],
   "license": "Apache-2.0",
   "main": "src/index.js",
+  "mocha": {
+    "checkLeaks": true,
+    "fullTrace": true,
+    "inlineDiffs": true,
+    "recursive": true,
+    "reporter": "progress"
+  },
   "name": "@hutson/conventional-changelog-config",
   "renovate": {
     "extends": [
@@ -37,7 +44,7 @@
     "url": "https://gitlab.com/hyper-expanse/open-source/configuration-packages/conventional-changelog-config.git"
   },
   "scripts": {
-    "test": "yarn semistandard 'src/**/*.js' && nyc mocha --opts mocha.opts src/**/*.spec.js"
+    "test": "yarn semistandard 'src/**/*.js' && nyc mocha src/**/*.spec.js"
   },
   "version": "1.0.0",
   "dependencies": {
@@ -49,7 +56,7 @@
     "chai": "^4.0.2",
     "chai-as-promised": "^7.1.1",
     "codecov": "^3.0.0",
-    "mocha": "^5.0.0",
+    "mocha": "^6.0.0",
     "npm-publish-git-tag": "^3.0.0",
     "nyc": "^13.0.0",
     "semantic-release-gitlab": "^7.0.0",
