@@ -90,13 +90,6 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@hutson/conventional-changelog-config@^2.0.0":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@hutson/conventional-changelog-config/-/conventional-changelog-config-2.0.2.tgz#468c13fef6c45d9da486001710dbe7e74c98c2cf"
-  integrity sha512-0scC+oz9hm/y3pEwv8s1tDxzhhTHGBAAphayQSaVf1NO0ruZJ1EsC3aJxJ7AbduLRbsB6fiMRLRLkARddkuPFA==
-  dependencies:
-    conventional-changelog-angular "^5.0.0"
-
 acorn-jsx@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"
