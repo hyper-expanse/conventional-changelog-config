@@ -44,6 +44,12 @@ However, as an example, if you are using `semantic-release-gitlab` or `semantic-
 $(yarn bin)/semantic-release-gitlab --preset @hutson/config
 ```
 
+## Professional Support
+
+[Professional support for `@hutson/semantic-delivery-gitlab` is available with a Tidelift Subscription](https://tidelift.com/subscription/pkg/npm--hutson-conventional-changelog-config?utm_source=npm--hutson-conventional-changelog-config&utm_medium=referral&utm_campaign=readme).
+
+Tidelift helps make open source sustainable for maintainers while giving companies assurances about security, maintenance, and licensing for their dependencies.
+
 ## Debugging
 
 To assist users of `@hutson/conventional-changelog-config` with debugging the behavior of this module we use the [debug](https://www.npmjs.com/package/debug) utility package to print information to the console. To enable debug message printing, the environment variable `DEBUG`, which is the variable used by the `debug` package, must be set to a value configured by the package containing the debug messages to be printed.
