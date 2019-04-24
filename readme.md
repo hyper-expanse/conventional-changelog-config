@@ -12,6 +12,8 @@ Configuration package for tools within the [`conventional-changelog`](https://ww
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Security Disclosure Policy](#security-disclosure-policy)
+- [Professional Support](#professional-support)
 - [Debugging](#debugging)
 - [Node Support Policy](#node-support-policy)
 - [Contributing](#contributing)
