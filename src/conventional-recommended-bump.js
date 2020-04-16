@@ -1,6 +1,6 @@
 'use strict';
 
-const parserOpts = require(`conventional-changelog-angular/parser-opts`);
+const parserOpts = require('conventional-changelog-angular/parser-opts');
 
 module.exports = {
   parserOpts,
@@ -11,11 +11,11 @@ module.exports = {
     let features = 0;
 
     commits.forEach(commit => {
-      if (commit.type === `fix`) {
+      if (commit.type === 'fix') {
         level = 2;
       }
 
-      if (commit.type === `feat`) {
+      if (commit.type === 'feat') {
         features += 1;
         level = 1;
       }
@@ -28,7 +28,7 @@ module.exports = {
 
     return {
       level,
-      reason: `There ${breakings === 1 ? `is` : `are`} ${breakings} BREAKING CHANGE${breakings === 1 ? `` : `S`} and ${features} feature${features === 1 ? `` : `s`}`
+      reason: `There ${breakings === 1 ? 'is' : 'are'} ${breakings} BREAKING CHANGE${breakings === 1 ? '' : 'S'} and ${features} feature${features === 1 ? '' : 's'}`
     };
   }
 };
