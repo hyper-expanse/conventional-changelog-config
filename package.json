@@ -8,7 +8,7 @@
   "bugs": "https://github.com/hyper-expanse/conventional-changelog-config/issues",
   "description": "Standard conventional-changelog configuration as used by projects maintained by Hutson Betts (@hutson).",
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=10.13.0"
   },
   "files": [
     "src/**/!(*.spec).js"
