@@ -73,6 +73,6 @@
     "chai-as-promised": "^7.1.1",
     "mocha": "^8.0.0",
     "nyc": "^15.0.0",
-    "semistandard": "^14.0.0"
+    "semistandard": "^16.0.0"
   }
 }
